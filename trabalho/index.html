@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra Seu Personagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Bem-vindo ao seu Mundo Mágico!</h1>
+        <p id="descrição">Eldoria é um reino de contrastes, onde a luz e a escuridão estão em constante conflito. A Ordem dos Luminares, liderada por Elyon Solis, é um farol de bondade, espalhando esperança e proteção aos aflitos.
+
+            Nas sombras, o Culto Demoníaco, sob Lucian Crowe, busca justiça com astúcia e determinação, fazendo o que for necessário para proteger os que ama, mesmo que isso signifique escolhas difíceis.
+            
+            Por fim, Lira Veradis e seu Círculo da Equidade Celestial trabalham para manter o equilíbrio entre essas forças, promovendo a harmonia em um mundo dividido.
+            
+            À medida que tensões aumentam, Eldoria se prepara para uma era de incertezas, onde heróis e anti-heróis moldarão seu destino.</p>
+        <p>Descubra qual personagem você seria!</p>
+        <button id="start">Iniciar Questionário</button>
+
+        <div id="questionnaire" style="display:none;">
+            <h2>Perguntas</h2>
+            <div id="questions-container"></div>
+            <button id="submit">Enviar Respostas</button>
+        </div>
+
+        <div id="result" style="display:none;">
+            <h2>Seu Personagem</h2>
+            <p id="character-name"></p>
+            <img id="character-image" src="" alt="Personagem">
+            <p id="character-description"></p>
+            <p id="score"></p>
+            <button id="restart">Redefinir Respostas</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
